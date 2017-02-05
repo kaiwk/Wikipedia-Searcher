@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    color: #444;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+h2 {
+    color: #444;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 4%;
+    text-align: center;
+}
+
+input {
+    font-size: 18px;
+}
+
+.btn {
+    margin: 16px 0.5px;
+    height: 34px;
+    width: 90px;
+    height: 46px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    outline: none;
+    background-color: #2980b9;
+}
+
+#search-section {
+    width: 100%;
+}
+
+#search-input {
+    width: 96%;
+    padding: 8px 2%;
+    color: #444;
+    text-align: center;
+
+}
+
+#random-btn {
+    background-color: #2ecc71;
+}
+
+#random-btn:hover {
+    background-color: #27ae60;
+}
+
+.result-card {
+    width: 96%;
+    padding: 0 2%;
+    padding-top: 12px;
+    padding-bottom: 24px;
+    margin-top: 40px;
+    border: 1px solid #ddd;
+    /*box-shadow: 2px 2px 20px #bbb;*/
+}
+
+.result-card:hover {
+    box-shadow: 4px 4px 20px #aaa;
+    cursor: pointer;
+}
+
+#results-section {
+    display: none;
+    margin-bottom: 40px;
+}
+
+#error {
+    display: none;
+}
