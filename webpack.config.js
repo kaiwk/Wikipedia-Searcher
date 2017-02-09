@@ -2,7 +2,7 @@ var path = require('path');
 
 var config = {
   entry: {
-    main: path.join(__dirname, 'src/js', 'main.js')
+    main: path.join(__dirname, 'src', 'index.js')
   },
 
   output: {
